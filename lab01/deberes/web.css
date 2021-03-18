@@ -1,9 +1,32 @@
 .block1{
     color: blue;
-    width: fit-content;
+    width: 50%;
     border: 2px solid black;
     position: absolute;
     top: 0px;
     left: 0px;
+    font-size:5px;
 
+}
+.block2{
+    color: blue;
+    width: 50%;
+    border: 2px solid black;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size:5px;
+
+}
+
+@media screen and (max-width: 300px) {
+    .block2 {
+      font-size: 12pt;
+    }
+  }
+  
+@media screen and (min-width: 600px) {
+.block2 {
+    font-size: 48pt;
+}
 }
