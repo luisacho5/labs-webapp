@@ -1,0 +1,21 @@
+body {
+    background-color : #FFFB00;
+    }
+    h1 {
+    color :rgb(0,0,255);
+    font-size: 100%;
+    }
+    h2 {
+    font-size : x-large;
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    text-shadow:-2px 2px 3px green;
+    font-size: 5 em;
+    }
+    #nombre {
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    }
+    p.center {
+    text-align : center;
+    }
