@@ -56,3 +56,28 @@
     text-transform: uppercase;
 
  }
+
+ .feature-content{
+    padding:8rem o;
+    overflow: hidden;
+ }
+
+ .feature-content img{
+     margin-bottom: -8rem;
+ }
+
+ .feature-dark{
+     background:#262F36;
+     color: white;
+ }
+
+ .feature-dark h2{
+     color: white;
+ }
+
+ @media screen and(min-width:991px){
+     .feature-content{
+         display: flex;
+         align-items: center;
+     }
+ }
