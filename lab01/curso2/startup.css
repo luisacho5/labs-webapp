@@ -75,6 +75,32 @@
      color: white;
  }
 
+ .feature-alt{
+     background: #f0f0f0;
+ }
+
+ #feature-four .feature-content{
+     padding:0;
+ }
+
+ #feature-five img{
+     margin-top:2rem;
+ }
+
+ #main-footer{
+     background: #262F36;
+     color: white;
+     padding: 6rem 0;
+     font-size: 0.8rem;
+ }
+
+ #main-footer h6{
+    color: #718FA9;
+ }
+
+ #main-footer a{
+     color:#6C6F73;
+ }
  @media screen and(min-width:991px){
      .feature-content{
          display: flex;
