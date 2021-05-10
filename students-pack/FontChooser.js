@@ -84,7 +84,7 @@ class FontChooser extends React.Component {
 
 			this.setState({ fontSize: this.state.fontSize - 1 });
 
-			if(this.state.fontSize - 1 === this.state.minValue){ fontSizeSpan.setAttribute("style", "color:blue;"); }
+			if(this.state.fontSize - 1 === this.state.minValue){ fontSizeSpan.setAttribute("style", "color:red;"); }
 			
 		}
 	}
@@ -104,7 +104,7 @@ class FontChooser extends React.Component {
 			});
 
 			if(this.state.fontSize - 1 === this.state.minValue){
-				fontSizeSpan.setAttribute("style", "color:blue;");
+				fontSizeSpan.setAttribute("style", "color:red;");
 			}
 			
 		}
@@ -124,7 +124,7 @@ class FontChooser extends React.Component {
 				fontSizeSpan.setAttribute("style", "");
 			}
 		}else{
-			fontSizeSpan.setAttribute("style", "color:blue;");
+			fontSizeSpan.setAttribute("style", "color:red;");
 		}
 	}
 
